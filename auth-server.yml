@@ -62,6 +62,7 @@ spring:
     url: jdbc:mysql://localhost:3306/auth
     username: root
     password: password
+    driver-class: com.mysql.jdbc.Driver
 
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
@@ -79,6 +80,7 @@ spring:
     url: jdbc:mysql://mysqldb:3306/auth
     username: root
     password: password
+    driver-class: com.mysql.jdbc.Driver
 
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
